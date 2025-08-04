@@ -1,0 +1,37 @@
+{
+  "name": "tab_html",
+  "version": "1.0.6",
+  "description": "A boilerplate project with HTML, CSS, and JavaScript",
+  "keywords": [
+    "boilerplate",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "license": "MIT",
+  "author": "Your Name",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/boilerplate-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/boilerplate-project/issues"
+  },
+  "homepage": "https://github.com/yourusername/boilerplate-project#readme",
+  "type": "commonjs",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "live-server src",
+    "test": "jest",
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "babel-loader": "^9.1.2",
+    "jest": "^29.5.0",
+    "live-server": "^1.2.0",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.4"
+  }
+}

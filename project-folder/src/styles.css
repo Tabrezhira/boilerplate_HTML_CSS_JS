@@ -1,0 +1,72 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a default font for the body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Add some basic styles for headings */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1rem;
+}
+
+/* Style for paragraphs */
+p {
+    margin-bottom: 1rem;
+}
+
+/* Add a default background color */
+body {
+    background-color: #f4f4f4;
+}
+
+/* Add some padding to the body */
+body {
+    padding: 20px;
+}
+
+/* Table Styles */
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: white;
+}
+
+.styled-table tbody tr:nth-child(even) {
+    background-color: #f3f3f3;
+}
+
+/* Grid Styles */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+    background-color: #009879;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
